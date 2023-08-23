@@ -1,9 +1,12 @@
 const express=require("express")
 const http=require("http")
+require("dotenv").config();
 const SocketIO=require("socket.io")
 const cors=require("cors")
 const app=express();
-const port=5000 || process.env.port;
+
+const port=process.env.port || 8000;
+
 
 const users=[{}]
 
