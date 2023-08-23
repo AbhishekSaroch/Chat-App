@@ -3,7 +3,7 @@ import { user } from "../Join/Join";
 import ReactScrollToBottom from "react-scroll-to-bottom"
 import socketIO from "socket.io-client";
 import Message from "../message/Message";
-const ENDPOINT = `http://localhost:5000`;
+const ENDPOINT = `https://backendchatapp-weu3.onrender.com/`;
 
 let socket;
 const Chat = () => {
