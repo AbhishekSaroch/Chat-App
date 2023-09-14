@@ -19,7 +19,7 @@ const Join = () => {
     <div className='bg-black w-[100vw] h-[100vh] flex justify-center items-center'>
       <div className='w-[50%] flex flex-col items-center'>
         <img src={logo} alt='logo' className='w-[10vmax]' />
-        <h1 className='text-white text-[2.5vmax] font border-b-2 w-[25vmax] text-center'>Abhi-Chat</h1>
+        <h1 className='text-white text-[2.5vmax] font border-b-2 w-[25vmax] text-center'>Abhiiiii-Chat</h1>
         <input 
         type='text'
         className='w-[25vmax] border-none outline-none font-[1.5rem] p-[1.5vmax] m-[2vmax] box-border'
